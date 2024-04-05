@@ -1,0 +1,10 @@
+﻿# To get instruct model that has been trained with more epoch (probably 5) and steps (probably 100)
+
+wget http://dlai-generative-ai.s3.amazonaws.com/models/flan-dialogue-summary-checkpoint/pytorch_model.bin ./flan-dialogue-summary-checkpoint/
+wget http://dlai-generative-ai.s3.amazonaws.com/models/flan-dialogue-summary-checkpoint/generation_config.json ./flan-dialogue-summary-checkpoint/
+wget http://dlai-generative-ai.s3.amazonaws.com/models/flan-dialogue-summary-checkpoint/trainer_state.json ./flan-dialogue-summary-checkpoint/
+wget http://dlai-generative-ai.s3.amazonaws.com/models/flan-dialogue-summary-checkpoint/training_args.bin ./flan-dialogue-summary-checkpoint/
+wget http://dlai-generative-ai.s3.amazonaws.com/models/flan-dialogue-summary-checkpoint/config.json ./flan-dialogue-summary-checkpoint/
+wget http://dlai-generative-ai.s3.amazonaws.com/models/flan-dialogue-summary-checkpoint/scheduler.pt ./flan-dialogue-summary-checkpoint/
+wget http://dlai-generative-ai.s3.amazonaws.com/models/flan-dialogue-summary-checkpoint/rng_state.pth ./flan-dialogue-summary-checkpoint/
+wget http://dlai-generative-ai.s3.amazonaws.com/models/flan-dialogue-summary-checkpoint/optimizer.pt ./flan-dialogue-summary-checkpoint/
